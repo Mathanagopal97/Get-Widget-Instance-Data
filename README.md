@@ -10,3 +10,8 @@
 > Refer this [link](https://imgur.com/a/K1gn5ye) for images.
 
 This repository contains the code to do it.
+
+## Solution explanation
+
+1. After digging around in the database, I found that the table named ```widget_instance``` contains the necessary details.
+2. So I went ahead and created a **service contract** to access the table and retireve the content form it.
